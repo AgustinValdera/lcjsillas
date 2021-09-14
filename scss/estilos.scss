@@ -2,3 +2,76 @@
 @import "estructura";
 @import "tipografia";
 @import "titulos"
+
+
+body {
+    background-color: whitesmoke;
+    color: black; }
+  
+  header {
+    background-color: rgb(255, 182, 47) }
+  
+  body {
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center; }
+  
+  footer {
+    text-align: left; 
+  background-color: rgb(255, 255, 73);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif; }
+  
+  .vivienda {
+    font-size: 35px;
+    font-style: italic;
+    text-transform: inherit; }
+  
+  h5 {
+    font-size: 35px;
+    font-style: italic;
+    text-transform: inherit; }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .item {
+    margin: 1em;
+    padding: 1em;
+    color: black;
+    text-align: center;
+    font-size: 22px;
+  }
+  
+  
+  h6 {
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(252, 179, 44);
+  }
+  
+  .empresa {
+    font-size: 17px;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+  }
+  
+  h4 {
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  
+  .agrandar {
+    animation-name: agrandar;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    -o-animation-timing-function: linear;
+    animation-direction: alternate;
+  }
